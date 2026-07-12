@@ -14,7 +14,7 @@ Settings) → **Plugins**; in Claude Code it's the `/plugin` command — then:
 2. **Install** this plugin (Customer Clarity Free).
 
 Then ask "who is my customer really?" or paste a call transcript and the
-`mw-customer-avatar-builder` skill runs. Claude Code equivalent:
+`mw-customer-free-avatar-scan` skill runs. Claude Code equivalent:
 
 ```
 /plugin marketplace add anehemy/metamorphosis
@@ -23,7 +23,7 @@ Then ask "who is my customer really?" or paste a call transcript and the
 
 ## Alternative: upload the skill as a file (claude.ai)
 
-Prefer not to add a marketplace? Download `mw-customer-avatar-builder.zip` from
+Prefer not to add a marketplace? Download `mw-customer-free-avatar-scan.zip` from
 the marketplace repo (`anehemy/metamorphosis`), then in Claude go to
 **Customize → Skills → + → Upload a skill** and choose it. (One-time: enable
 code execution under Settings → Capabilities.)

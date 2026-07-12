@@ -24,13 +24,13 @@ Claude Code equivalent:
 ## Prefer a single file? (claude.ai alternative)
 
 You can also skip the marketplace and upload the skill as a file:
-download **`mw-customer-avatar-builder.zip`** from this repo, then in Claude go
+download **`mw-customer-free-avatar-scan.zip`** from this repo, then in Claude go
 to **Customize → Skills → + → Upload a skill**.
 
 ## What's inside
 
 | Item | What it does |
 |--------|--------------|
-| `mw-customer-avatar-builder` (skill) | Builds one customer avatar from your real call transcripts, in your customers' own words. Pulls from Fathom or Microsoft 365 when connected, or works from pasted transcripts. |
+| `mw-customer-free-avatar-scan` (skill) | Builds one customer avatar from your real call transcripts, in your customers' own words. Pulls from Fathom or Microsoft 365 when connected, or works from pasted transcripts. |
 
 More tools will be added over time.
