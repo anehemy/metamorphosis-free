@@ -1,5 +1,5 @@
 ---
-name: mw-customer-free-avatar-scan
+name: mw-ccais-free-avatar-scan
 description: >-
   Build one customer avatar from real sales, discovery, and networking call
   transcripts, in the customer's own verbatim words instead of guesswork.

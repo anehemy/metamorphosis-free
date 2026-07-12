@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "name": "metamorphosis",
+  "name": "metamorphosis-free",
   "description": "Metamorphosis Worldwide, Claude plugin marketplace. Add this marketplace to install our tools straight into your Claude account.",
   "owner": {
     "name": "Metamorphosis Worldwide",
@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "mw-customer-clarity-free",
+      "name": "mw-ccais-free",
       "source": "./plugins/customer-clarity-free",
       "description": "Metamorphosis Worldwide, Customer Clarity AI System (Free edition). Build one customer avatar from your real call transcripts, in your customers' own words. The free lead magnet for the full Customer Clarity AI System."
     }

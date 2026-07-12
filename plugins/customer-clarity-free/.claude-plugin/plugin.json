@@ -1,7 +1,7 @@
 {
-  "name": "mw-customer-clarity-free",
+  "name": "mw-ccais-free",
   "description": "Metamorphosis Worldwide, Customer Clarity AI System (Free edition). Pulls your Fathom or Microsoft 365 call transcripts (or accepts pasted Teams/Zoom/Otter transcripts) and builds one customer avatar in your customers' own words. The free lead magnet; the full multi-avatar system, founder voice, content, and CRM logging are the paid edition.",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "author": {
     "name": "Metamorphosis Worldwide",
     "url": "https://metamorphosis-usa.com"

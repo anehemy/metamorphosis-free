@@ -1,30 +1,30 @@
 # Install — Customer Clarity AI System (Free edition)
 
 By Metamorphosis Worldwide. Build one customer avatar from your real call
-transcripts, in your customers' own words. This is the free lead-magnet tier;
-the full multi-avatar system, founder voice, content generation, and CRM
-logging are the paid edition.
+transcripts, in your customers' own words. This is the free lead-magnet tier of
+the Customer Clarity AI System (CCAIS); the full multi-avatar system, founder
+voice, content generation, and CRM logging are the paid edition.
 
 ## Install (works in the Claude app, claude.ai, and Claude Code)
 
 Open the plugins screen — in the Claude app / claude.ai it's the **+** menu (or
 Settings) → **Plugins**; in Claude Code it's the `/plugin` command — then:
 
-1. **Add marketplace:** `anehemy/metamorphosis`
-2. **Install** this plugin (Customer Clarity Free).
+1. **Add marketplace:** `anehemy/metamorphosis-free`
+2. **Install** this plugin (`mw-ccais-free`).
 
 Then ask "who is my customer really?" or paste a call transcript and the
-`mw-customer-free-avatar-scan` skill runs. Claude Code equivalent:
+`mw-ccais-free-avatar-scan` skill runs. Claude Code equivalent:
 
 ```
-/plugin marketplace add anehemy/metamorphosis
-/plugin install mw-customer-clarity-free@metamorphosis
+/plugin marketplace add anehemy/metamorphosis-free
+/plugin install mw-ccais-free@metamorphosis-free
 ```
 
 ## Alternative: upload the skill as a file (claude.ai)
 
-Prefer not to add a marketplace? Download `mw-customer-free-avatar-scan.zip` from
-the marketplace repo (`anehemy/metamorphosis`), then in Claude go to
+Prefer not to add a marketplace? Download `mw-ccais-free-avatar-scan.zip` from
+the marketplace repo (`anehemy/metamorphosis-free`), then in Claude go to
 **Customize → Skills → + → Upload a skill** and choose it. (One-time: enable
 code execution under Settings → Capabilities.)
 
