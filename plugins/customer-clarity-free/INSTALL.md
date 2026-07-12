@@ -5,34 +5,28 @@ transcripts, in your customers' own words. This is the free lead-magnet tier;
 the full multi-avatar system, founder voice, content generation, and CRM
 logging are the paid edition.
 
-## Pick your install based on where you use Claude
+## Install (works in the Claude app, claude.ai, and Claude Code)
 
-A skill bundled in a plugin currently runs in **Claude Code** (and Cowork),
-**not** in the plain claude.ai chat app. So there are two paths:
+Open the plugins screen — in the Claude app / claude.ai it's the **+** menu (or
+Settings) → **Plugins**; in Claude Code it's the `/plugin` command — then:
 
-- **claude.ai / Claude desktop chat** (any plan, including Free): upload the
-  skill file directly. This is the path for most people.
-- **Claude Code** (terminal / IDE): add the marketplace; the skill works
-  automatically.
+1. **Add marketplace:** `anehemy/metamorphosis`
+2. **Install** this plugin (Customer Clarity Free).
 
-## Path A — claude.ai / Claude desktop app
-
-1. Download `mw-customer-avatar-builder.zip` from the marketplace repo
-   (`anehemy/metamorphosis`).
-2. In Claude: **Customize → Skills → + → Upload a skill**, choose the `.zip`,
-   turn it on. (One-time: enable code execution under Settings → Capabilities.)
-3. Ask "who is my customer really?" or paste a call transcript.
-
-## Path B — Claude Code
+Then ask "who is my customer really?" or paste a call transcript and the
+`mw-customer-avatar-builder` skill runs. Claude Code equivalent:
 
 ```
 /plugin marketplace add anehemy/metamorphosis
 /plugin install mw-customer-clarity-free@metamorphosis
 ```
 
-Verify: ask "who is my customer really?" or paste a transcript and the
-`mw-customer-avatar-builder` skill triggers. You can also invoke it directly
-with `/mw-customer-clarity-free:mw-customer-avatar-builder`.
+## Alternative: upload the skill as a file (claude.ai)
+
+Prefer not to add a marketplace? Download `mw-customer-avatar-builder.zip` from
+the marketplace repo (`anehemy/metamorphosis`), then in Claude go to
+**Customize → Skills → + → Upload a skill** and choose it. (One-time: enable
+code execution under Settings → Capabilities.)
 
 ## Connectors (optional either way)
 

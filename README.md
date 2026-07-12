@@ -1,35 +1,31 @@
 # Metamorphosis Plugins
 
-Claude tools from [Metamorphosis Worldwide](https://metamorphosis-usa.com).
+The Claude plugin marketplace for [Metamorphosis Worldwide](https://metamorphosis-usa.com).
+Add it once and the tools install into your Claude account.
 
-## Which install do I use?
+## Install (works in the Claude app, claude.ai, and Claude Code)
 
-It depends on **where you use Claude** — because a skill bundled in a plugin
-currently runs in **Claude Code** and Cowork, but **not** in the plain
-claude.ai chat app.
+Open the plugins screen — in the Claude app / claude.ai it's the **+** menu (or
+Settings) → **Plugins**; in Claude Code it's the `/plugin` command — then:
 
-- **You use the Claude app or claude.ai in a browser** → upload the skill file
-  (below). This is the path for most people.
-- **You use Claude Code** (the terminal / IDE tool) → add the marketplace
-  (below); the skill works automatically.
+1. **Add marketplace:** `anehemy/metamorphosis`
+2. **Install** the **Customer Clarity (Free)** plugin.
 
-## claude.ai / Claude desktop app (any plan, including Free)
+No GitHub account needed. Then ask *"who is my customer really?"* or paste a
+call transcript, and the skill runs.
 
-1. Download **`mw-customer-avatar-builder.zip`** from this repo.
-2. In Claude, go to **Customize → Skills → + → Upload a skill** and choose the
-   file. Turn it on. (One-time: enable code execution under Settings →
-   Capabilities.)
-3. Ask *"who is my customer really?"* or paste a call transcript.
-
-## Claude Code (terminal / IDE)
+Claude Code equivalent:
 
 ```
 /plugin marketplace add anehemy/metamorphosis
 /plugin install mw-customer-clarity-free@metamorphosis
 ```
 
-Then ask *"who is my customer really?"* or paste a transcript. You can also
-invoke it directly: `/mw-customer-clarity-free:mw-customer-avatar-builder`.
+## Prefer a single file? (claude.ai alternative)
+
+You can also skip the marketplace and upload the skill as a file:
+download **`mw-customer-avatar-builder.zip`** from this repo, then in Claude go
+to **Customize → Skills → + → Upload a skill**.
 
 ## What's inside
 
