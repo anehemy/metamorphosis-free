@@ -1,0 +1,8 @@
+{
+  "name": "customer-clarity-free",
+  "description": "Customer Clarity AI System — Free edition. Scans your Fathom and pasted (Teams/Zoom/Otter) call transcripts and builds one customer avatar from your customers' own verbatim language. The free lead-magnet tier; the full multi-avatar system, founder-voice, content, and CRM logging are the paid edition.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Alan Nehemy"
+  }
+}

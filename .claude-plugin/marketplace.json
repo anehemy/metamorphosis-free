@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "name": "metamorphosis",
+  "description": "Claude Code plugin marketplace for Metamorphosis Worldwide products.",
+  "owner": {
+    "name": "Alan Nehemy"
+  },
+  "plugins": [
+    {
+      "name": "customer-clarity-free",
+      "source": "./plugins/customer-clarity-free",
+      "description": "Free edition: build one customer avatar from your real call transcripts, in your customers' own words. Lead magnet for the full Customer Clarity AI System."
+    }
+  ]
+}
