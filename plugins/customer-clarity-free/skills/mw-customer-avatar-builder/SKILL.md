@@ -1,24 +1,15 @@
 ---
 name: mw-customer-avatar-builder
 description: >-
-  Build a customer avatar from real sales, networking, and discovery call
-  transcripts, using the customer's verbatim language and psychology instead
-  of guesswork. Pulls transcripts from Fathom or Microsoft 365 when
-  connected, triages which pulled calls look like real customer
-  conversations before analyzing anything, and falls back to pasted
-  transcripts from any source (Teams, Zoom, Otter, Fathom exports) when no
-  connector is available or a specific transcript can't be retrieved. Works
-  with or without a filesystem: saves files when one exists, otherwise keeps
-  everything in the chat as copyable blocks. Use whenever a business owner
-  wants to know who their real customer is, asks to create a customer
-  avatar, ideal client profile, buyer persona, or target customer profile,
-  wants to analyze call transcripts or debrief a sales call, asks what
-  language their customers actually use, or says things like "who is my
-  customer really" or "help me understand my market from my calls." Trigger
-  even if they never say "avatar" - any request to turn real conversations
-  into a picture of the customer belongs here. Not for building a CRM,
-  scoring or ranking individual leads, or producing analysis of one named
-  person rather than the customer archetype they represent.
+  Build one customer avatar from real sales, discovery, and networking call
+  transcripts, in the customer's own verbatim words instead of guesswork.
+  Pulls calls from Fathom or Microsoft 365 when connected, or works from
+  pasted transcripts (Teams, Zoom, Otter). Use whenever a business owner
+  wants to know who their real customer is, asks for a customer avatar,
+  ideal client profile, buyer persona, or target customer profile, wants to
+  analyze call transcripts or debrief a sales call, or asks what language
+  their customers actually use. Not for building a CRM, scoring individual
+  leads, or profiling one named person.
 ---
 
 # Customer Avatar Builder
