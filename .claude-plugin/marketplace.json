@@ -1,15 +1,16 @@
 {
   "version": "1.0",
   "name": "metamorphosis",
-  "description": "Claude Code plugin marketplace for Metamorphosis Worldwide products.",
+  "description": "Metamorphosis Worldwide, Claude plugin marketplace. Add this marketplace to install our tools straight into your Claude account.",
   "owner": {
-    "name": "Alan Nehemy"
+    "name": "Metamorphosis Worldwide",
+    "url": "https://metamorphosis-usa.com"
   },
   "plugins": [
     {
-      "name": "customer-clarity-free",
+      "name": "mw-customer-clarity-free",
       "source": "./plugins/customer-clarity-free",
-      "description": "Free edition: build one customer avatar from your real call transcripts, in your customers' own words. Lead magnet for the full Customer Clarity AI System."
+      "description": "Metamorphosis Worldwide, Customer Clarity AI System (Free edition). Build one customer avatar from your real call transcripts, in your customers' own words. The free lead magnet for the full Customer Clarity AI System."
     }
   ]
 }

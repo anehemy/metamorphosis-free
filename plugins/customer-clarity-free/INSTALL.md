@@ -38,7 +38,7 @@ Run inside Claude Code:
 
 ```
 /plugin marketplace add anehemy/metamorphosis
-/plugin install customer-clarity-free@metamorphosis
+/plugin install mw-customer-clarity-free@metamorphosis
 ```
 
 Verify: ask Claude "who is my customer really?" or paste a call transcript —
