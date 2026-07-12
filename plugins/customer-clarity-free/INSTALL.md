@@ -6,18 +6,20 @@ customer avatar written in their customers' own words.
 
 ## What this is
 
-A Claude Code plugin bundling a single skill:
+A Claude Code plugin bundling a single, self-contained skill:
 
-- **`customer-avatar-builder`** — pulls transcripts from Fathom when connected,
-  or accepts pasted transcripts from any source (Teams, Zoom, Otter, exports),
-  then builds ONE customer avatar from the strongest pattern across the calls.
-  When it detects more than one customer type, it names that and points to the
-  full paid system rather than forcing a blurry single avatar.
+- **`mw-customer-avatar-builder`** — pulls call transcripts from Fathom or
+  Microsoft 365 when either is connected, or accepts pasted transcripts from any
+  source (Teams, Zoom, Otter, exports), then builds ONE customer avatar from the
+  strongest pattern across the calls. When it detects more than one customer
+  type, it names that and points to the full paid system rather than forcing a
+  blurry single avatar.
 
-This is the **generic free edition** from the Skill Shop — not a casting tuned
-to a specific client. It is deliberately capped at one avatar; the multi-avatar
-engine, founder voice, content generation, scheduled intake, and CRM logging
-are the **paid edition**.
+This is the **single-file free edition** — the whole skill lives in one
+`SKILL.md` (references flattened inline), so it installs as a plugin here or
+uploads as a standalone `.zip` skill on claude.ai. It is deliberately capped at
+one avatar; the multi-avatar engine, founder voice, content generation,
+scheduled intake, and CRM logging are the **paid edition**.
 
 ## Prerequisites
 
@@ -40,14 +42,19 @@ Run inside Claude Code:
 ```
 
 Verify: ask Claude "who is my customer really?" or paste a call transcript —
-`customer-avatar-builder` should trigger.
+`mw-customer-avatar-builder` should trigger.
 
 ## Connector setup (optional, not blocking)
 
-- **Fathom** — for the skill to pull recordings directly. If not connected, the
-  skill falls back to pasted transcripts, so this is **not** blocking for a
-  first run. (Microsoft Teams recordings are supported today only via paste; a
-  native Microsoft 365 pull is a tracked enhancement — see the product map.)
+- **Fathom** — the skill pulls recent recordings directly and triages which look
+  like real customer calls before analyzing.
+- **Microsoft 365** — the skill checks your calendar for call-shaped meetings and
+  looks for their transcripts in the Teams meeting Recap and your SharePoint/
+  OneDrive files. Retrieval depends on recording/transcription having been turned
+  on for that meeting; when a transcript is not found, the skill falls back to
+  paste without fuss.
+- Neither connector is required. With nothing connected, paste a transcript from
+  any source (Teams, Zoom, Otter, Fathom export) and the skill runs the same way.
 
 ## What the founder needs on first run
 
